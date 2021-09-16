@@ -1,0 +1,99 @@
+nav{
+	height: 15%;
+	width: 100%;
+	background: skyblue;
+	border: 3px;
+}
+a{
+	/*position: absolute;*/
+	float: right;
+	padding: 5px;
+	margin-right: 20px;
+	}
+#landing_logo{
+	width: 30px;
+	height: 30px;
+}
+h1{
+	text-align: center;
+	font-weight: 100;
+	font-family: karla;
+	font-size: 66px;
+}
+h6{
+	text-align: center;
+	font-weight: 100;
+	font-family: karla;
+	font-size: 26px;
+}
+
+#objetivo{
+	text-align: center;
+	width: 50%;
+	height: 30%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+fieldset{
+	text-align: center;
+	width: 40%;
+	height: auto;
+	border-radius: 10px 10px;
+	margin-left: auto;
+  	margin-right: auto;
+}
+#monitor{
+	
+	text-align: center;
+	width: 98%;
+	height: auto;
+/*	margin-top: 20px;*/
+	margin-left: auto;
+  	margin-right: auto;
+  }
+  #fondo_logistica{
+  	border: 1px solid #000;
+  	margin-top: 20px;
+  	width: 100%;
+	height: auto;
+  }
+ #contenedor_registro{
+ 	background-color: lightslategray;
+ 	padding: 20px;
+ 	border: 1px solid #000;
+	text-align: center;
+	width: 20%;
+	height: auto;
+	border-radius: 10px 10px;
+	margin-left: auto;
+  	margin-right: auto;
+}
+input{
+	position: relative;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: flex;
+  	flex-direction: row;
+}
+label,button{
+	font-weight: 100;
+	font-family: karla;
+	font-size: 16px;
+
+}
+legend{
+	text-align: left;
+}
+#titulo_registro{
+	padding: 25px;
+	text-align: center;
+	font-weight: 100;
+	font-family: karla;
+	font-size: 28px;
+}
+#registro{
+	background-image: url("img/fondo_registro.jpg");
+
+}
+#
