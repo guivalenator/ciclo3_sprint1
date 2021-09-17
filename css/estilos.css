@@ -59,7 +59,7 @@ fieldset{
 	height: auto;
   }
  #contenedor_registro{
- 	background-color: lightslategray;
+ 	background-color: rgba(51, 144, 215, 0.54);
  	padding: 20px;
  	border: 1px solid #000;
 	text-align: center;
