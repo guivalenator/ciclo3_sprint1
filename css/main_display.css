@@ -1,3 +1,42 @@
+#span1{
+	color: #F5ED90;
+	background-color: skyblue;
+	display: inline;
+}
+
+#span2{
+	background-color: darkcyan;
+	visibility: hidden;/* oculta el objeto pero reserva el espacio */
+}
+
+#span3{
+ 	background-color: #F5ED90;
+	display: none;/* Colapsa el espacio*/
+}
+
+#span4{
+	background-color: maroon;
+	display: hidden;
+}
+
+#div1{
+	background-color: maroon;
+	
+}
+#div2{
+	background-color: red;	
+	visibility: hidden;
+}
+#div3{
+	background-color: darkcyan;
+	visibility: collapse;
+}
+#div4{
+	background-color: skyblue;
+	visibility: none;
+}
+
+
 nav{
 	height: 15%;
 	width: 100%;
@@ -104,8 +143,4 @@ legend{
 .etiqueta2{
 
 	text-decoration-color: red;
-}
-.dark{
-	background-color: black;
-	color: white;
 }
