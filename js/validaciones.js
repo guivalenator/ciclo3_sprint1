@@ -1,12 +1,15 @@
 function validaEdad() {
     var edad = document.getElementById("dato_edad_usuario").value;
     var enteroValidado = validar_edad_usuario(edad);
+<<<<<<< HEAD
 }
 
 function validaNombre() {
     var nombre = document.getElementById("dato_nombre_usuario").value;
     // nombreValidado = validar_nombre_usuario(nombre);
     var nombreValidado = validar_nombre_usuario(nombre);
+=======
+>>>>>>> ad56b49c6bc82e1565a32c2fcbacbc88f0e67c4f
 }
 
 function validar_nombre_usuario(valor){
@@ -42,6 +45,7 @@ function validar_edad_usuario(edad){
     console.log(valor);
     if(isNaN(valor)== true){
         console.log(valor);
+<<<<<<< HEAD
         alert("El dato ingresado debe ser numerico");
     }
     else if(valor >=13 && valor <110){
@@ -50,6 +54,13 @@ function validar_edad_usuario(edad){
     }
     else{
         alert("La edad  debe estar entre 13 y 109 años")
+=======
+        alert("Por el if -->> No se puede convertir");
+    }
+    else{
+        console.log(valor);
+        alert("Por el else")
+>>>>>>> ad56b49c6bc82e1565a32c2fcbacbc88f0e67c4f
     }
 
 }
