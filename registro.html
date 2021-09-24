@@ -14,17 +14,18 @@
 		</nav>
 	</section>
 	<br><br><br>
+    <div id="contenedor_registro_padre">
 	<div id="titulo_registro">CALZADO INDUSTRIAL MAFECAR VALRAM<br><br>Crea una cuenta </div>
 	<div id="contenedor_registro">
 	<form id="form_nuevo_usuario">
 		<fieldset>
 			<legend>Usuario</legend>
-				<input id="dato_nombre_usuario" type="text" >
+				<input id="dato_nombre_usuario" type="text" onblur ="validaNombre()" >
 		</fieldset>
 		<br>
 		<fieldset>
 			<legend>Edad</legend>
-				<input id="dato_edad_usuario" type="numeric" >
+				<input id="dato_edad_usuario" type="text" onblur="">
 		</fieldset>
 		<br>
 		<fieldset>
@@ -35,6 +36,8 @@
 		<button id="enviar_registro">Registar</button>
 	</form>
 	</div>
-
+        <br><br><br><br><br><br>
+    </div>
+<script type="text/javascript" src="js/validaciones.js"></script>
 </body>
 </html>
